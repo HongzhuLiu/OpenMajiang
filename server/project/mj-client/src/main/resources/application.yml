@@ -1,3 +1,4 @@
+
 site:
     title: 麻将
     serverUrl: ws://127.0.0.1:8010/g
@@ -24,7 +25,7 @@ debug:
 jdbc:
     url: jdbc:mysql://127.0.0.1:3306/boss?autoReconnect=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: 111111
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
     maxNums: 20
     minNums: 5
@@ -48,3 +49,6 @@ net:
       address: 127.0.0.1
       port: 11002
       publicKey: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCOLX6y_Ud7svHi4PDOUgQMhn9DrWjTU7che_8KOK0XoItY8NlAhVXdus82Xvs268O-GgmeVmOGwXfxrFgft5CCQx-okQM2_qbuKWH1IA3JRYbKz2Kt93wtHZHqSFmwtIcv3kxupbw9umqP8dBjsPUue9vHcbem3uys6e56FHvjowIDAQAB
+
+server:
+  port: 8080

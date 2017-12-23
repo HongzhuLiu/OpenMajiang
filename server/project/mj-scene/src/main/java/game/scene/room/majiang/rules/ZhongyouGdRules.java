@@ -154,7 +154,7 @@ class ZhongyouGdRules extends Rules {
 
     @Override
     public boolean isFangPao() {
-        return false;//;;config.getBoolean(Config.IS_TUI_DAO_HU);
+        return true;//;;config.getBoolean(Config.IS_TUI_DAO_HU);
     }
 
     @Override

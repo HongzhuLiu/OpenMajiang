@@ -21,13 +21,6 @@
         <fileSet>
             <directory>${config.path}/gateway/</directory>
             <includes>
-                <include>GatewayConfig.xml</include>
-            </includes>
-            <outputDirectory>gateway/classes/</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${config.path}/gateway/</directory>
-            <includes>
                 <include>startup.sh</include>
             </includes>
             <outputDirectory>gateway/</outputDirectory>

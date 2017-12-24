@@ -21,13 +21,6 @@
         <fileSet>
             <directory>${config.path}/client/</directory>
             <includes>
-                <include>application.yml</include>
-            </includes>
-            <outputDirectory>client/classes/</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${config.path}/client/</directory>
-            <includes>
                 <include>startup.sh</include>
             </includes>
             <outputDirectory>client/</outputDirectory>
@@ -38,16 +31,6 @@
                 <include>Dockerfile</include>
             </includes>
             <outputDirectory>client/</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${static.path}</directory>
-            <includes>
-                <include>**</include>
-            </includes>
-            <excludes>
-                <exclude>index.html</exclude>
-            </excludes>
-            <outputDirectory>client/classes/static/</outputDirectory>
         </fileSet>
     </fileSets>
 </component>

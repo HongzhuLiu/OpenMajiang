@@ -21,13 +21,6 @@
         <fileSet>
             <directory>${config.path}/boss/</directory>
             <includes>
-                <include>BossConfig.xml</include>
-            </includes>
-            <outputDirectory>boss/classes/</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${config.path}/boss/</directory>
-            <includes>
                 <include>startup.sh</include>
             </includes>
             <outputDirectory>boss/</outputDirectory>
